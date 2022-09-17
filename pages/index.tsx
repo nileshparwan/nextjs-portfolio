@@ -3,13 +3,14 @@ import Head from 'next/head'
 import About from '../components/About'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
 
 const Home: NextPage = () => {
   return (
-    <div 
-    className='bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0'
+    <div
+      className='bg-[#242424] text-white h-screen snap-y snap-mandatory overflow-scroll z-0'
     >
       <Head>
         <title>Koshal's Portfolio</title>
@@ -38,6 +39,9 @@ const Home: NextPage = () => {
       </section>
 
       {/* Projects */}
+      <section id="projects" className='snap-center'>
+        <Projects />
+      </section>
 
       {/* contact me */}
     </div>
