@@ -1,5 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Header from '../components/Header'
+// import Hero from '../components/Hero'
 
 const Home: NextPage = () => {
   return (
@@ -8,8 +10,22 @@ const Home: NextPage = () => {
         <title>Koshal's Portfolio</title>
       </Head>
 
-      <h1 className='text-red-500'>Some title here</h1>
+      <Header />
 
+      {/* Hero  */}
+      <section id="hero">
+        {/* <Hero /> */}
+      </section>
+
+      {/* About  */}
+
+      {/* Experience  */}
+
+      {/* Skills */}
+
+      {/* Projects */}
+
+      {/* contact me */}
     </div>
   )
 }
