@@ -49,6 +49,18 @@ const Home: NextPage = () => {
       <section id="contactme" className='snap-start'>
         <ContactMe />
       </section>
+
+      <Link href="#hero">
+      <footer className='sticky bottom-5 w-full cursor-pointer'>
+        <div className='flex items-center justify-center'>
+          <img
+            src="https://i.imgur.com/e2yvD6A.png"
+            alt=""
+            className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
+          />
+        </div>
+      </footer>
+      </Link>
     </div>
   )
 }
